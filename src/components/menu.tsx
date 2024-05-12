@@ -1,14 +1,14 @@
-import Link from "next/link"
+import Link from 'next/link';
 
 export default function Menu() {
     return (
-        <ul className="menu">
+        <ul className='menu'>
             <li>
                 <Link href="/">Home</Link>
             </li>
             <li>
-                <Link href="/produtos">Produtos</Link>
+                <Link href="/cursos">Cursos</Link>
             </li>
         </ul>
-    );
+    )
 }
